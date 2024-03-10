@@ -6,6 +6,7 @@
 
 @import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
 @import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-straight/css/uicons-regular-straight.css');
 
 :root {
     --tooltip-opacity: 1; /* Nilai default */
@@ -175,11 +176,11 @@ z-index:1;
     text-align:center;
     vertical-align:middle;
     .modal {
-    max-width: 50rem;
+    max-width: 70rem;
     max-height: 100%;
     /* overflow: scroll; */
-    background:white;
-    padding:50px;
+    background:none;
+    /* padding: 20px; */
     display:inline-block;
     border-radius:3px;
     font-weight:300;
@@ -527,4 +528,11 @@ h1 {
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal .swiper-pagination-bullets .swiper-pagination-bullet {
     background-color: #FD841F; /* Ubah warna bullet pagination menjadi merah */
+}
+
+.modal-close{
+    position: relative;
+    float: right;
+    right: -2rem;
+    top: -1rem;
 }
