@@ -175,16 +175,19 @@ z-index:1;
     background:rgba(0,0,0,.8);
     text-align:center;
     vertical-align:middle;
+    transition: opacity 0.3s ease;
     .modal {
+    position:relative;
+    display:inline-block;
+    /* padding: 20px; */
     max-width: 70rem;
     max-height: 100%;
-    /* overflow: scroll; */
-    background:none;
-    /* padding: 20px; */
-    display:inline-block;
     border-radius:3px;
     font-weight:300;
-    position:relative;
+    background:none;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+    /* overflow: scroll; */
     h2 {
         font-size:25px;
         line-height:25px;
@@ -210,6 +213,21 @@ z-index:1;
     }
     }
 }
+}
+
+.modal-container.active .modal{
+    animation: scaleDown 0.3s ease forwards;
+}
+
+@keyframes scaleDown {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
 }
 
 .content {
