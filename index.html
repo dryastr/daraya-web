@@ -28,6 +28,7 @@
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-brands/css/uicons-brands.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-straight/css/uicons-regular-straight.css'>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <style>
@@ -225,18 +226,46 @@
       </section>
     <!-- End block -->
 
+    <!-- modal 1 -->
     <div class="modal-groups" style="z-index: 10;">
-        <div id="modal1" class="modal-container" >
+        <div id="modal1" class="modal-container">
             <div class="modal-background" style="z-index: 10;">
                 <div class="modal">
-                    <h2 class="text-base">e-LMS | E-Learning Management System</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptate, doloribus atque assumenda quia id veritatis ad quo, nesciunt, cumque eum expedita ut suscipit! Aspernatur provident deserunt beatae tempora tempore. Eligendi ex amet ipsa itaque odit similique consequuntur assumenda quaerat! Aspernatur provident deserunt beatae tempora tempore. Eligendi ex amet ipsa itaque odit similique consequuntur assumenda quaerat!
-                        <img class='mt-5' src='./images/testimoni-img/lms.png' alt=''>
-                    </p>
-                    <svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
-                        <rect x="0" y="0" fill="none" width="226" height="162" rx="3" ry="3"></rect>
-                    </svg>
+                    <button class="modal-close"><i class="fi fi-rs-circle-xmark" style="color: #fff; width: 90rem;"></i></button>
+                    <img src="./images/testimoni-img/lms.png" alt="LMS">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal 2 -->
+    <div class="modal-groups" style="z-index: 10;">
+        <div id="modal2" class="modal-container">
+            <div class="modal-background" style="z-index: 10;">
+                <div class="modal">
+                    <button class="modal-close"><i class="fi fi-rs-circle-xmark" style="color: #fff; width: 90rem;"></i></button>
+                    <img src="./images/testimoni-img/daraya-movie.png" alt="Daraya Movie">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal 3 -->
+    <div class="modal-groups" style="z-index: 10;">
+        <div id="modal3" class="modal-container">
+            <div class="modal-background" style="z-index: 10;">
+                <div class="modal">
+                    <button class="modal-close"><i class="fi fi-rs-circle-xmark" style="color: #fff; width: 90rem;"></i></button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal 4 -->
+    <div class="modal-groups" style="z-index: 10;">
+        <div id="modal4" class="modal-container">
+            <div class="modal-background" style="z-index: 10;">
+                <div class="modal">
+                    <button class="modal-close"><i class="fi fi-rs-circle-xmark" style="color: #fff; width: 90rem;"></i></button>
+                    
                 </div>
             </div>
         </div>
@@ -247,112 +276,84 @@
             <h2 class="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white">Portofolio Project Daraya</h2>
             <div class="swiper-container overflow-hidden" style="margin: 0">
                 <div class="swiper-wrapper" style="z-index: auto;">
+                    <!-- modal1 -->
                     <div class="swiper-slide">
                         <div data-aos="fade-up" data-aos-delay="50" class="max-w-sm mx-auto bg-white dark:bg-gray-900 shadow-md rounded-lg overflow-hidden">
                             <div class="px-6 py-4">
                                 <div class="flex align-center justify-between mb-5">
-                                    <a class="cursor-pointer mr-2" id="openModal1" data-modal-id="modal1" tooltip="Lihat selengkapnya" flow="right">
+                                    <a class="cursor-pointer mr-2" id="openModal1" data-modal-id="modal1" tooltip="Lihat Aplikasi" flow="right">
                                         <i class="fi fi-rr-folder-open text-2xl" style="color: #FD841F;"></i>
                                     </a>
-                                    <a href="https://dev-lms.aaipi.id/" target="_blank">
+                                    <a href="https://dev-lms.aaipi.id/">
                                         <i class="fi fi-rr-link-alt text-2xl" style="color: #FD841F;"></i>
                                     </a>
                                 </div>
-                                <p class="text-gray-700 dark:text-gray-300 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptate, doloribus atque assumenda quia id veritatis ad quo, nesciunt, cumque eum expedita ut suscipit! Aspernatur provident deserunt beatae tempora tempore. Eligendi ex amet ipsa itaque odit similique consequuntur assumenda quaerat!</p>
+                                <p class="text-gray-700 dark:text-gray-300 text-base cursor-pointer" title="E-Learning Management System (E-LMS) yang dirancang oleh Asosiasi Auditor Intern Pemerintah Indonesia (AAIPI) merupakan sebuah platform inovatif yang menyediakan akses yang mudah dan terstruktur bagi para auditor intern untuk meningkatkan pengetahuan dan keterampilan mereka dalam bidang audit internal.">E-Learning Management System (E-LMS) yang dirancang oleh Asosiasi Auditor Intern Pemerintah Indonesia (AAIPI) merupakan sebuah platform inovatif yang menyediakan akses yang mudah dan terstruktur bagi para auditor intern untuk meningkatkan pengetahuan dan keterampilan...</p>
                             </div>
-                            <div class="px-6 py-4">
+                            <div class="px-6 py-4 flex flex-wrap justify-start">
                                 <span class="inline-block px-1 py-1 text-sm font-semibold text-gray-700 dark:text-white">e-LMS</span>
                                 <span class="inline-block px-1 py-1 text-sm font-semibold text-gray-700 dark:text-white">Laravel</span>
                             </div>
                         </div>
                     </div>
+                    <!-- modal2 -->
                     <div class="swiper-slide">
-                        <div data-aos="fade-up" data-aos-delay="150" class="max-w-sm mx-auto bg-white dark:bg-gray-900 shadow-md rounded-lg overflow-hidden">
+                        <div data-aos="fade-up" data-aos-delay="50" class="max-w-sm mx-auto bg-white dark:bg-gray-900 shadow-md rounded-lg overflow-hidden">
                             <div class="px-6 py-4">
                                 <div class="flex align-center justify-between mb-5">
-                                    <a href="" id="openModal2" data-modal-id="modal2">
+                                    <a class="cursor-pointer mr-2" id="openModal2" data-modal-id="modal2">
                                         <i class="fi fi-rr-folder-open text-2xl" style="color: #FD841F;"></i>
                                     </a>
-                                    <div id="modal2" class="modal-container">
-                                        <div class="modal-background">
-                                            <div class="modal">
-                                                <h2>Title</h2>
-                                                <p>Content</p>
-                                                <svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
-                                                    <rect x="0" y="0" fill="none" width="226" height="162" rx="3" ry="3"></rect>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <a href="https://dev-lms.aaipi.id/" target="_blank">
+                                    <a href="https://daraya-movie.vercel.app/#/">
                                         <i class="fi fi-rr-link-alt text-2xl" style="color: #FD841F;"></i>
                                     </a>
                                 </div>
-                                <p class="text-gray-700 dark:text-gray-300 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptate, doloribus atque assumenda quia id veritatis ad quo, nesciunt, cumque eum expedita ut suscipit! Aspernatur provident deserunt beatae tempora tempore. Eligendi ex amet ipsa itaque odit similique consequuntur assumenda quaerat!</p>
+                                <p class="text-gray-700 dark:text-gray-300 text-base" title="">Daraya Movie adalah sebuah platform streaming yang memanfaatkan API dengan antarmuka yang dirancang ramah pengguna dan bebas dari gangguan iklan. Daraya Movie menghadirkan solusi yang ideal bagi para penikmat film yang menghindari pengalaman menonton yang terganggu oleh iklan.</p>
                             </div>
-                            <div class="px-6 py-4">
-                                <span class="inline-block px-1 py-1 text-sm font-semibold text-gray-700 dark:text-white">Learning</span>
-                                <span class="inline-block px-1 py-1 text-sm font-semibold text-gray-700 dark:text-white">BPKP</span>
+                            <div class="px-6 py-4 flex flex-wrap justify-start">
+                                <span class="inline-block px-1 py-1 text-sm font-semibold text-gray-700 dark:text-white">Streaming</span>
+                                <span class="inline-block px-1 py-1 text-sm font-semibold text-gray-700 dark:text-white">React</span>
+                                <span class="inline-block px-1 py-1 text-sm font-semibold text-gray-700 dark:text-white">API</span>
                             </div>
                         </div>
                     </div>
+                    <!-- modal3 -->
                     <div class="swiper-slide">
-                        <div data-aos="fade-up" data-aos-delay="250" class="max-w-sm mx-auto bg-white dark:bg-gray-900 shadow-md rounded-lg overflow-hidden">
+                        <div data-aos="fade-up" data-aos-delay="50" class="max-w-sm mx-auto bg-white dark:bg-gray-900 shadow-md rounded-lg overflow-hidden">
                             <div class="px-6 py-4">
                                 <div class="flex align-center justify-between mb-5">
-                                    <a href="" id="openModal3" data-modal-id="modal3">
+                                    <a class="cursor-pointer mr-2" id="openModal3" data-modal-id="modal3">
                                         <i class="fi fi-rr-folder-open text-2xl" style="color: #FD841F;"></i>
                                     </a>
-                                    <div id="modal3" class="modal-container">
-                                        <div class="modal-background">
-                                            <div class="modal">
-                                                <h2>Title</h2>
-                                                <p>Content</p>
-                                                <svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
-                                                    <rect x="0" y="0" fill="none" width="226" height="162" rx="3" ry="3"></rect>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                    </div>
                                     <a href="https://dev-lms.aaipi.id/" target="_blank">
                                         <i class="fi fi-rr-link-alt text-2xl" style="color: #FD841F;"></i>
                                     </a>
                                 </div>
                                 <p class="text-gray-700 dark:text-gray-300 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptate, doloribus atque assumenda quia id veritatis ad quo, nesciunt, cumque eum expedita ut suscipit! Aspernatur provident deserunt beatae tempora tempore. Eligendi ex amet ipsa itaque odit similique consequuntur assumenda quaerat!</p>
                             </div>
-                            <div class="px-6 py-4">
-                                <span class="inline-block px-1 py-1 text-sm font-semibold text-gray-700 dark:text-white">Learning</span>
-                                <span class="inline-block px-1 py-1 text-sm font-semibold text-gray-700 dark:text-white">BPKP</span>
+                            <div class="px-6 py-4 flex flex-wrap justify-start">
+                                <span class="inline-block px-1 py-1 text-sm font-semibold text-gray-700 dark:text-white">e-LMS</span>
+                                <span class="inline-block px-1 py-1 text-sm font-semibold text-gray-700 dark:text-white">Laravel</span>
                             </div>
                         </div>
                     </div>
+                    <!-- modal4 -->
                     <div class="swiper-slide">
-                        <div data-aos="fade-up" data-aos-delay="250" class="max-w-sm mx-auto bg-white dark:bg-gray-900 shadow-md rounded-lg overflow-hidden">
+                        <div data-aos="fade-up" data-aos-delay="50" class="max-w-sm mx-auto bg-white dark:bg-gray-900 shadow-md rounded-lg overflow-hidden">
                             <div class="px-6 py-4">
                                 <div class="flex align-center justify-between mb-5">
-                                    <a href="" id="openModal3" data-modal-id="modal3">
+                                    <a class="cursor-pointer mr-2" id="openModal4" data-modal-id="modal4">
                                         <i class="fi fi-rr-folder-open text-2xl" style="color: #FD841F;"></i>
                                     </a>
-                                    <div id="modal3" class="modal-container">
-                                        <div class="modal-background">
-                                            <div class="modal">
-                                                <h2>Title</h2>
-                                                <p>Content</p>
-                                                <svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
-                                                    <rect x="0" y="0" fill="none" width="226" height="162" rx="3" ry="3"></rect>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                    </div>
                                     <a href="https://dev-lms.aaipi.id/" target="_blank">
                                         <i class="fi fi-rr-link-alt text-2xl" style="color: #FD841F;"></i>
                                     </a>
                                 </div>
                                 <p class="text-gray-700 dark:text-gray-300 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptate, doloribus atque assumenda quia id veritatis ad quo, nesciunt, cumque eum expedita ut suscipit! Aspernatur provident deserunt beatae tempora tempore. Eligendi ex amet ipsa itaque odit similique consequuntur assumenda quaerat!</p>
                             </div>
-                            <div class="px-6 py-4">
-                                <span class="inline-block px-1 py-1 text-sm font-semibold text-gray-700 dark:text-white">Learning</span>
-                                <span class="inline-block px-1 py-1 text-sm font-semibold text-gray-700 dark:text-white">BPKP</span>
+                            <div class="px-6 py-4 flex flex-wrap justify-start  ">
+                                <span class="inline-block px-1 py-1 text-sm font-semibold text-gray-700 dark:text-white">e-LMS</span>
+                                <span class="inline-block px-1 py-1 text-sm font-semibold text-gray-700 dark:text-white">Laravel</span>
                             </div>
                         </div>
                     </div>
@@ -535,7 +536,7 @@
     <script src="/modal.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            var tooltip = document.querySelector("[tooltip='Lihat selengkapnya']");
+            var tooltip = document.querySelector("[tooltip='Lihat Aplikasi']");
             tooltip.style.display = "block";
 
             document.getElementById("openModal1").addEventListener("click", function() {
